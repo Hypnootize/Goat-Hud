@@ -1,33 +1,5 @@
 "GameMenu" [$WIN32]
 {
-	"QuickplayButton"
-	{
-		"label" "Casual" 
-		"command" "play_casual"
-		"subimage" ""
-		"OnlyAtMenu" "1"
-	}
-	"QuickplayChangeButton"
-	{
-		"label" "Casual"
-		"command" "play_casual"
-		"subimage" ""
-		"OnlyInGame" "1"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "play_competitive"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "0"
-	}
-	"PlayPVEButton"
-	{
-		"label" "MvM" 
-		"command" "play_mvm"
-		"subimage" ""
-		"OnlyAtMenu" "0"
-	}
 	"ServerBrowserButton"
 	{
 		"label" "Browse Servers" 
@@ -53,16 +25,6 @@
 		"command" "OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu" "1"
 	}
-	//"PCWButton"
-	//{
-	//	"label"		""
-	//	"command"		"engine connect "
-	//}
-	//"DMButton"
-	//{
-	//	"label"		"DM"
-	//	"command"		"engine connect 109.201.148.199:20030"
-	//}
 	"DemoUIButton"
 	{
 		"label" "DemoUI"
