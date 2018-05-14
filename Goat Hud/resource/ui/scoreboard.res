@@ -699,32 +699,7 @@
             "fieldName" "KillsLabel"
             "xpos"      "999999"
         }   
-		"SupportLabel"
-        {
-            "ControlName"   "CExLabel"
-            "fieldName" "SupportLabel"
-            "xpos"      "999999"
-        } 
-		"Support"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Supporta"
-			"font"			"aasadScoreboardVerySmall"
-			"labelText"		"%support%"
-			"textAlignment"	"west"		[$WIN32]
-			"xpos"			"545"	[$WIN32]
-			"ypos"			"20"	[$WIN32]
-			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}
-		
-                                                        
-        "Kills2"
+		"Kills2"
         {
             "ControlName"   "CExLabel"
             "fieldName" "Kills2"
